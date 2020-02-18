@@ -33,7 +33,7 @@
 
         <TableRow
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="30dp"
             android:paddingBottom="25dp">
 
             <TextView
@@ -66,25 +66,25 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="30dp"
             android:paddingBottom="25dp">
 
             <TextView
                 android:id="@+id/questionField1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:maxLength="1"
                 android:text="@string/questionField1"
                 android:textAlignment="center"
-                android:maxLength="1"
                 android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/questionField2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:maxLength="1"
                 android:text="@string/questionField2"
                 android:textAlignment="center"
-                android:maxLength="1"
                 android:textSize="24sp" />
 
             <EditText
@@ -102,34 +102,34 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="30dp"
             android:paddingBottom="25dp">
 
             <TextView
                 android:id="@+id/questionField3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:maxLength="1"
                 android:text="@string/questionField3"
                 android:textAlignment="center"
-                android:maxLength="1"
                 android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/questionField4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/questionField4"
                 android:maxLength="1"
+                android:text="@string/questionField4"
                 android:textAlignment="center"
-                android:textSize="24sp"/>
+                android:textSize="24sp" />
 
             <EditText
                 android:id="@+id/answerField2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:maxLength="1"
                 android:backgroundTint="@android:color/holo_red_dark"
                 android:inputType="textPersonName"
+                android:maxLength="1"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="24sp" />
@@ -137,17 +137,17 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="30dp"
             android:paddingBottom="25dp">
 
             <TextView
                 android:id="@+id/questionField5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/questionField5"
                 android:maxLength="1"
+                android:text="@string/questionField5"
                 android:textAlignment="center"
-                android:textSize="24sp"/>
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/questionField6"
@@ -156,15 +156,15 @@
                 android:maxLength="1"
                 android:text="@string/questionField6"
                 android:textAlignment="center"
-                android:textSize="24sp"/>
+                android:textSize="24sp" />
 
             <EditText
                 android:id="@+id/answerField3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:maxLength="1"
                 android:backgroundTint="@android:color/holo_red_dark"
                 android:inputType="textPersonName"
+                android:maxLength="1"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="24sp" />
@@ -172,17 +172,17 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="30dp"
             android:paddingBottom="25dp">
 
             <TextView
                 android:id="@+id/questionField7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/questionField8"
                 android:maxLength="1"
+                android:text="@string/questionField8"
                 android:textAlignment="center"
-                android:textSize="24sp"/>
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/questionField8"
@@ -191,29 +191,29 @@
                 android:maxLength="1"
                 android:text="@string/questionField9"
                 android:textAlignment="center"
-                android:textSize="24sp"/>
+                android:textSize="24sp" />
 
             <EditText
                 android:id="@+id/answerField4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:maxLength="1"
                 android:backgroundTint="@android:color/holo_red_dark"
                 android:inputType="textPersonName"
-                android:textAllCaps="true"
+                android:maxLength="1"
                 android:textAlignment="center"
+                android:textAllCaps="true"
                 android:textSize="24sp" />
 
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="30dp">
 
             <Button
                 android:id="@+id/submitButton"
                 android:layout_width="14dp"
-                android:layout_height="wrap_content"
+                android:layout_height="35dp"
                 android:layout_column="1"
                 android:text="@string/submitButton" />
         </TableRow>
